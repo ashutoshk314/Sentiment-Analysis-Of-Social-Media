@@ -1,49 +1,49 @@
-Twitter Sentiment Analysis
+# Twitter Sentiment Analysis
 
 A machine-learning project that classifies airline-related tweets as positive, neutral, or negative using Natural Language Processing (NLP).
 
-Overview
+## Overview
 
-This project uses the Twitter US Airline Sentiment dataset to analyze customer opinions about major U.S. airlines.
+- This project uses the Twitter US Airline Sentiment dataset to analyze customer opinions about major U.S. airlines.
 
-Dataset
+## Dataset
 
-Tweets labeled as positive, neutral, or negative
+- Tweets labeled as positive, neutral, or negative
 
-Contains reasons for negative sentiment (delays, customer service issues, cancellations)
+- Contains reasons for negative sentiment (delays, customer service issues, cancellations)
 
-Preprocessing
+## Preprocessing
 
-Remove URLs, mentions, hashtags
+- Remove URLs, mentions, hashtags
 
-Expand contractions
+- Expand contractions
 
-Tokenization & lemmatization
+- Tokenization & lemmatization
 
-Remove stopwords, punctuation, and special characters
+- Remove stopwords, punctuation, and special characters
 
-Models Used
+## Models Used
 
-Logistic Regression
+- Logistic Regression
 
-Support Vector Machine (SVM)
+- Support Vector Machine (SVM)
 
-Naive Bayes
+- Naive Bayes
 
-Random Forest
+- Random Forest
 
-Best Models: SVM and Logistic Regression
+- Best Models: SVM and Logistic Regression
 
-Features
+## Features
 
-Bag of Words (CountVectorizer)
+- Bag of Words (CountVectorizer)
 
-Results
+- TF-IDF Vectorization
 
-Achieved 85–92% accuracy
+## Results
 
-Majority tweets are negative
+- Achieved 85–92% accuracy
 
-Key issues: delays, cancellations, customer service problems
+- Majority tweets are negative
 
-TF-IDF Vectorization
+- Key issues: delays, cancellations, customer service problems
